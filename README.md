@@ -12,7 +12,7 @@ features:
   details: Go 的编译速度要比绝大多数语言都要快，比 Java 和 C++ 快 5 至 6 倍，比 Scala 快 10 倍。 
 - title: 运行更快的程序
   details: 在最理想的情况下，Go 能够和 C++ 一样快，比 Scala 快 2 至 3 倍，比 Java 快 5 至 10 倍。 
-footer: CC BY-SA 3.0 License | 原作者 Ivo Balbaert ,由无闻(https://unknwon.io)翻译
+footer: CC BY-SA 3.0 License | 原作者 Ivo Balbaert ,翻译仓库 https://github.com/Unknwon/the-way-to-go_ZH_CN
 ---
 
 《Go入门指南》
