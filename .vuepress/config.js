@@ -7,7 +7,8 @@ module.exports = {
     markdown: {
         lineNumbers: true,
     },
-    base: 'the-way-to-go-ZH-CN',
+    base: '/the-way-to-go-ZH-CN/',
+    dest: 'docs',
     themeConfig: {
         smoothScroll: true,
         logo: '/favicon.png',
