@@ -7,8 +7,13 @@ module.exports = {
     markdown: {
         lineNumbers: true,
     },
-    base: '/the-way-to-go-ZH-CN/',
+    base: '/',
     dest: 'docs',
+    locales: {
+        "/": {
+            lang: "zh-CN",
+        },
+    },
     themeConfig: {
         smoothScroll: true,
         logo: '/favicon.png',
@@ -17,6 +22,9 @@ module.exports = {
             { text: '目录', link: '/directory.html' },
             {
                 text: '导航', items: [
+                    { text: '首页', link: '/' },
+                    { text: '目录', link: '/directory.html' },
+                    { text: '前言', link: '/preface.html' },
                     { text: '第一部分：学习 Go 语言', link: '/01.1.html' },
                     { text: '第二部分：语言的核心结构与技术', link: '/04.1.html' },
                     { text: '第三部分：Go 高级编程', link: '/12.0.html' },

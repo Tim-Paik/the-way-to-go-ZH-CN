@@ -26,7 +26,7 @@ footer: CC BY-SA 3.0 License | 原作者 Ivo Balbaert ,翻译仓库 https://gith
 
 ## 翻译进度
 
-18.11 [出于性能考虑的最佳实践和建议](18.11.md)
+19.10 [总结和增强](19.10.md)
 
 ## 支持本书
 

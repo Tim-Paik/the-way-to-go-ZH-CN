@@ -1,0 +1,16 @@
+{
+  "name": "the-way-to-go-zh-cn",
+  "version": "1.0.0",
+  "description": "Go 入门指南",
+  "main": "README.md",
+  "repository": "https://github.com/Tim-Paik/the-way-to-go-ZH-CN",
+  "author": "Tim-Paik <timpaik@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
