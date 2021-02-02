@@ -1,0 +1,23 @@
+{
+    "name": "Go 入门指南",
+    "short_name": "Go入门指南",
+    "lang": "zh-CN",
+    "start_url": ".",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "description": "《The Way to Go》中文译本，中文正式名《Go 入门指南》",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

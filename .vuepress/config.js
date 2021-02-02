@@ -2,8 +2,23 @@ module.exports = {
     title: 'Go入门指南',
     description: '《The Way to Go》中文译本',
     head: [
-        ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+        ['link', { rel: 'icon', href: '/logo.png' }],
+        ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+        ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+        ['meta', { name: 'theme-color', content: '#ffffff' }],
+        ['meta', { name: 'apple-mobile-web-app-title', content: 'Go 入门指南' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'white' }],
+        ['link', { rel: 'apple-touch-icon', href: '/icons/apple-touch-icon.png' }],
+        ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/icons/mstile-150x150.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }]
     ],
+    plugins: ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+    }],
     markdown: {
         lineNumbers: true,
     },
